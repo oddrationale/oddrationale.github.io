@@ -5,4 +5,4 @@ title: Home
 
 # Welcome
 
-This is the homepage of my blog.
+Welcome to my blog!
