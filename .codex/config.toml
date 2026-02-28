@@ -1,0 +1,11 @@
+[mcp_servers.docs]
+type = "http"
+url = "https://docs.langchain.com/mcp"
+
+[mcp_servers.copilotkit]
+type = "sse"
+url = "https://mcp.copilotkit.ai/sse"
+
+[mcp_servers.next-devtools]
+command = "npx"
+args = [ "-y", "next-devtools-mcp@latest" ]

@@ -1,0 +1,19 @@
+{
+  "servers": {
+    "next-devtools": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "next-devtools-mcp@latest"
+      ]
+    },
+    "copilotkit": {
+      "type": "sse",
+      "url": "https://mcp.copilotkit.ai/sse"
+    },
+    "docs": {
+      "type": "http",
+      "url": "https://docs.langchain.com/mcp"
+    }
+  }
+}
